@@ -1,13 +1,12 @@
 # Copilot Instructions: Rhino 3D Learning Repository
 
-This repository is a living knowledge base for learning Rhino 3D. Its purpose is not just to answer
-questions, but to **convert every answered question into durable, reusable documentation** that would
-help a stranger learn the same thing.
+A living knowledge base for learning Rhino 3D. Purpose: convert every answered question into durable
+documentation that helps a stranger learn the same thing.
 
 ## Core rule: capture every learning
 
-Whenever a question is asked and answered, a problem is solved, or a workflow is figured out during a
-session, you MUST capture it in the repository before ending the turn. Do not wait to be asked.
+When a question is answered, a problem solved, or a workflow figured out, capture it in the repository
+before ending the turn. Do not wait to be asked.
 
 A "learning" is anything that took investigation or explanation:
 
@@ -17,8 +16,8 @@ A "learning" is anything that took investigation or explanation:
 - A concept, term, or mental model that was clarified
 - A comparison between approaches and when to use each
 
-Trivial exchanges (pure chit-chat, restating something already documented) do not require a new file,
-but if existing documentation was wrong, incomplete, or unclear, update it.
+Skip chit-chat and anything already documented. If existing documentation is wrong, incomplete, or
+unclear, update it.
 
 ## Where things go
 
@@ -49,6 +48,16 @@ Write for a motivated beginner who was not part of the conversation.
 - Never invent commands, options, menu paths, or behavior. Mark anything unverified as
   `> **Unverified:**` rather than presenting it as fact.
 
+**Be terse.** Favor brevity over completeness of prose. Include every detail the reader needs to
+succeed, and nothing more.
+
+- No long paragraphs. Three sentences is a ceiling, not a target.
+- Use lists, tables, and short steps instead of narrative.
+- Cut preamble, restatement, filler, and motivational text.
+- One idea per bullet. If a bullet needs a semicolon, split it.
+- Link to an existing page instead of re-explaining it.
+- Terse does not mean vague: keep exact commands, values, settings, and expected results.
+
 **Use simple punctuation.** Do not use em dashes (`—`) or en dashes (`–`) anywhere in this repository,
 including documentation, commit messages, and chat responses. Use a comma, a colon, parentheses, or a
 separate sentence instead. Prefer plain ASCII punctuation over typographic characters generally: use
@@ -59,7 +68,6 @@ Templates live in `.github/templates/`. Follow them.
 ## Keeping the knowledge base cohesive
 
 The collection must get *more* integrated over time, not just larger.
-
 - Before creating a file, search `docs/`, `tutorials/`, and `exercises/` for an existing home. Prefer
   extending or correcting an existing file over creating a near-duplicate.
 - Cross-link related material in both directions using relative Markdown links.
@@ -81,12 +89,10 @@ For anything beyond a small edit, delegate the capture work to the `doc-scribe` 
 
 ## Commits
 
-Commit captured knowledge with a clear message describing the topic, for example
-`docs: explain surface continuity levels (G0/G1/G2)`.
+Commit with a clear message naming the topic, e.g. `docs: explain surface continuity levels (G0/G1/G2)`.
 
-**No attribution in commits.** Do not add `Co-authored-by` trailers, "Generated with" lines, tool or
-model names, or any other authorship attribution to commit messages. Commit messages describe the
-change only.
+**No attribution in commits.** No `Co-authored-by` trailers, "Generated with" lines, tool or model
+names, or any other authorship attribution. Describe the change only.
 
-Do not commit Rhino working files
-(`.3dm`, `.3dmbak`, `.rhl`) unless they are curated teaching assets under an `assets/` directory.
+Do not commit Rhino working files (`.3dm`, `.3dmbak`, `.rhl`) unless they are curated teaching assets
+under `assets/`.
