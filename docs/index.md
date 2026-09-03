@@ -8,6 +8,8 @@ Baseline environment: Rhino 8 for Windows.
 
 - [Dimension associativity](dimension-associativity.md): why dimensions use associativity not History, what creates the link, and what breaks it.
 - [Curve control points](curve-control-points.md): what control points are and how to show/hide them with `PointsOn`/`PointsOff` (`F10`/`F11`).
+- [Join vs Group](join-vs-group.md): `_Join` merges geometry into one object, `_Group` only links selection.
+- [Explode](explode.md): what `_Explode` returns for polysurfaces, blocks, and curves, and what you lose.
 
 ## Tutorials (`tutorials/`)
 
