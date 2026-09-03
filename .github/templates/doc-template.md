@@ -27,7 +27,7 @@
 
 ## Version and platform notes
 
-<Rhino version and OS if behavior depends on them; otherwise "Not version-specific.">
+<Only if behavior differs from the Rhino 8 Windows baseline. Otherwise omit this section.>
 
 ## Related material
 

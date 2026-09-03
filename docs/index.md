@@ -2,6 +2,8 @@
 
 The map of everything captured in this repository. Every new page should be listed here.
 
+Baseline environment: Rhino 8 for Windows.
+
 ## Concepts and reference (`docs/`)
 
 _Nothing captured yet._

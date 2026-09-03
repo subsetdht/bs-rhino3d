@@ -40,7 +40,8 @@ as open questions rather than guessing.
 - Rhino commands given exactly as typed (e.g. `_NetworkSrf`), with relevant options and prompts.
 - Numbered steps state the expected result.
 - Pitfalls, error messages, and recovery steps recorded.
-- Rhino version and platform noted when behavior depends on them.
+- Rhino version and platform noted only when behavior is version-sensitive. Baseline is Rhino 8 on
+  Windows; never present Rhino 5/6/7 behavior as current, and never give Rhino for Mac UI paths.
 - Nothing invented. Unverified claims labeled `> **Unverified:**`.
 - Terse over verbose. No long paragraphs (three sentences max), prefer lists, tables, and short steps,
   cut preamble and filler. Keep exact commands, values, and expected results.

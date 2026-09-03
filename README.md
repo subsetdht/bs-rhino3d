@@ -2,6 +2,8 @@
 
 Practical notes, tutorials, exercises, and reference material for learning Rhino 3D.
 
+Target environment: **Rhino 8 for Windows**. All commands and workflows assume this unless noted.
+
 Start at the [knowledge base index](docs/index.md).
 
 ## Structure

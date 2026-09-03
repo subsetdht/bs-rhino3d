@@ -19,6 +19,23 @@ A "learning" is anything that took investigation or explanation:
 Skip chit-chat and anything already documented. If existing documentation is wrong, incomplete, or
 unclear, update it.
 
+## Target environment
+
+**Rhino 8 on Windows.** Ground every answer, command, menu path, and screenshot reference in Rhino 8
+for Windows unless the user says otherwise.
+
+- Do not describe Rhino 5/6/7 behavior as current. If a workflow changed, say what Rhino 8 does.
+- Do not give Rhino for Mac UI paths. Mac differences belong in a "Platform notes" line only when
+  relevant.
+- Prefer Rhino 8 features where they are the better answer (SubD, ShrinkWrap, Grasshopper 1 in Rhino 8,
+  the Rhino 8 layout and display pipeline).
+- Note plugin or tier requirements when a command is not in stock Rhino 8.
+- If unsure whether something exists or behaves this way in Rhino 8, mark it `> **Unverified:**` and
+  say what to check.
+
+Files only need a version note when behavior is version-sensitive or differs from earlier releases.
+Rhino 8 on Windows is the assumed baseline.
+
 ## Where things go
 
 - `docs/`: durable concept and reference notes. Explain *what* something is and *why* it works.
@@ -44,8 +61,7 @@ Write for a motivated beginner who was not part of the conversation.
   options, prompts, and gumball/osnap settings.
 - Prefer numbered steps with the expected result after each meaningful step.
 - Record pitfalls, error messages, and how to recover from them.
-- Note the Rhino version and platform when behavior depends on them.
-- Never invent commands, options, menu paths, or behavior. Mark anything unverified as
+- Note the Rhino version and platform when behavior depends on them.- Never invent commands, options, menu paths, or behavior. Mark anything unverified as
   `> **Unverified:**` rather than presenting it as fact.
 
 **Be terse.** Favor brevity over completeness of prose. Include every detail the reader needs to

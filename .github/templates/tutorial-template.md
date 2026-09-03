@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- Rhino version: <version> on <platform>
+- Rhino 8 for Windows (baseline; note only if this tutorial requires something else)
 - Concepts: [<doc>](../docs/related-doc.md)
 - Starting file or setup: <what the reader needs open>
 
