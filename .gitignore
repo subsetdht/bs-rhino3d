@@ -1,0 +1,12 @@
+# Rhino working files — not tracked unless curated as teaching assets
+*.3dm
+*.3dmbak
+*.rhl
+*.rhi
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
