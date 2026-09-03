@@ -47,6 +47,8 @@ is verified and explicitly mark the gaps as open questions rather than guessing.
 
 ## Boundaries
 
+- Do not add `Co-authored-by` trailers, "Generated with" lines, or any other attribution to commit
+  messages. Commit messages describe the change only.
 - Do not commit Rhino working files (`.3dm`, `.3dmbak`, `.rhl`) unless they are curated teaching
   assets under `assets/`.
 - Do not rewrite unrelated material or restructure the repository beyond what the learning requires.

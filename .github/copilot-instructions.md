@@ -77,5 +77,11 @@ For anything beyond a small edit, delegate the capture work to the `doc-scribe` 
 ## Commits
 
 Commit captured knowledge with a clear message describing the topic, for example
-`docs: explain surface continuity levels (G0/G1/G2)`. Do not commit Rhino working files
+`docs: explain surface continuity levels (G0/G1/G2)`.
+
+**No attribution in commits.** Do not add `Co-authored-by` trailers, "Generated with" lines, tool or
+model names, or any other authorship attribution to commit messages. Commit messages describe the
+change only.
+
+Do not commit Rhino working files
 (`.3dm`, `.3dmbak`, `.rhl`) unless they are curated teaching assets under an `assets/` directory.
