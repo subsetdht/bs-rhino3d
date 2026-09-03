@@ -30,8 +30,18 @@ function loadInstructions(cwd) {
         "",
         parts.join("\n\n"),
         "",
-        "REMINDER: the capture rule is not optional. If this turn answered a question, solved a",
-        "problem, or figured out a workflow, write it into the repository before ending the turn.",
+        "MANDATORY END-OF-TURN CHECK. Before you end this turn, answer this question to yourself:",
+        "did this turn answer a Rhino question, solve a problem, or figure out a workflow?",
+        "",
+        "If yes, you are NOT done. You must, in this same turn:",
+        "  1. Search docs/, tutorials/, and exercises/ for an existing home for the topic.",
+        "  2. Create or update the file(s) using the templates in .github/templates/.",
+        "  3. Update docs/index.md and cross-link related pages.",
+        "  4. Commit the change (no attribution trailers).",
+        "  5. Tell the user in one line what was captured and where.",
+        "",
+        "Answering the user in chat does NOT satisfy this. Chat is ephemeral, the repository is the",
+        "deliverable. Do not defer the capture to a later turn and do not ask permission first.",
     ].join("\n");
 }
 
