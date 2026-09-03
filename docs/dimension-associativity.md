@@ -42,3 +42,4 @@ Association is created when a dimension's definition points are snapped to real 
 ## Related material
 
 - [Reposition a dimension without breaking associativity](../tutorials/reposition-dimension-without-breaking-associativity.md)
+- [Curve control points](./curve-control-points.md): the same `F10`/`PointsOn` toggle, applied to curve shape instead of dimension grips.

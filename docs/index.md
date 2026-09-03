@@ -7,6 +7,7 @@ Baseline environment: Rhino 8 for Windows.
 ## Concepts and reference (`docs/`)
 
 - [Dimension associativity](dimension-associativity.md): why dimensions use associativity not History, what creates the link, and what breaks it.
+- [Curve control points](curve-control-points.md): what control points are and how to show/hide them with `PointsOn`/`PointsOff` (`F10`/`F11`).
 
 ## Tutorials (`tutorials/`)
 
