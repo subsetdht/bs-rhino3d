@@ -42,6 +42,12 @@ function loadInstructions(cwd) {
         "",
         "Answering the user in chat does NOT satisfy this. Chat is ephemeral, the repository is the",
         "deliverable. Do not defer the capture to a later turn and do not ask permission first.",
+        "",
+        "ANTI-HALLUCINATION RULE. Never claim you captured, wrote, updated, indexed, or committed",
+        "anything unless you actually called the tools to do it in this turn. Writing a file requires a",
+        "create or edit tool call. Committing requires a shell tool call. If you did not make those",
+        "calls, the work did not happen, and saying otherwise is a fabrication. Before you state what",
+        "you captured, confirm the files exist and `git status` is clean.",
     ].join("\n");
 }
 
