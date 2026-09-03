@@ -21,7 +21,7 @@
 
 ## Verify your result
 
-<How to confirm the outcome is correct — measurements, analysis commands, visual checks.>
+<How to confirm the outcome is correct: measurements, analysis commands, visual checks.>
 
 ## Troubleshooting
 

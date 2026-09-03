@@ -6,9 +6,9 @@ Start at the [knowledge base index](docs/index.md).
 
 ## Structure
 
-- `docs/` — organized concepts and reference notes
-- `tutorials/` — guided, step-by-step workflows
-- `exercises/` — practice tasks and worked solutions
+- `docs/`: organized concepts and reference notes
+- `tutorials/`: guided, step-by-step workflows
+- `exercises/`: practice tasks and worked solutions
 
 Material should favor clear explanations, repeatable steps, useful screenshots or diagrams, and connections between related Rhino concepts.
 
@@ -23,7 +23,7 @@ Each topic will move from fundamentals to applied workflows:
 
 ## How knowledge gets captured
 
-Answering a question is only half the work — the answer must end up in the repository so someone else
+Answering a question is only half the work. The answer must end up in the repository so someone else
 can learn from it.
 
 - `.github/copilot-instructions.md` tells Copilot to capture every learning automatically, and where

@@ -10,7 +10,7 @@ change is a one-line correction.
 
 Specifically:
 
-1. List the distinct learnings from this session — concepts, procedures, pitfalls, and corrections.
+1. List the distinct learnings from this session: concepts, procedures, pitfalls, and corrections.
 2. For each, search `docs/`, `tutorials/`, and `exercises/` for an existing home. Prefer updating or
    consolidating over creating a near-duplicate page.
 3. Write or revise the material using the templates in `.github/templates/`, aimed at a motivated

@@ -1,4 +1,4 @@
-# Copilot Instructions — Rhino 3D Learning Repository
+# Copilot Instructions: Rhino 3D Learning Repository
 
 This repository is a living knowledge base for learning Rhino 3D. Its purpose is not just to answer
 questions, but to **convert every answered question into durable, reusable documentation** that would
@@ -17,14 +17,14 @@ A "learning" is anything that took investigation or explanation:
 - A concept, term, or mental model that was clarified
 - A comparison between approaches and when to use each
 
-Trivial exchanges (pure chit-chat, restating something already documented) do not require a new file —
+Trivial exchanges (pure chit-chat, restating something already documented) do not require a new file,
 but if existing documentation was wrong, incomplete, or unclear, update it.
 
 ## Where things go
 
-- `docs/` — durable concept and reference notes. Explain *what* something is and *why* it works.
-- `tutorials/` — guided, step-by-step lessons. Explain *how* to accomplish a concrete outcome.
-- `exercises/` — practice prompts with worked solutions that reinforce docs and tutorials.
+- `docs/`: durable concept and reference notes. Explain *what* something is and *why* it works.
+- `tutorials/`: guided, step-by-step lessons. Explain *how* to accomplish a concrete outcome.
+- `exercises/`: practice prompts with worked solutions that reinforce docs and tutorials.
 
 | The learning is mostly... | Put it in |
 | --- | --- |
@@ -48,6 +48,11 @@ Write for a motivated beginner who was not part of the conversation.
 - Note the Rhino version and platform when behavior depends on them.
 - Never invent commands, options, menu paths, or behavior. Mark anything unverified as
   `> **Unverified:**` rather than presenting it as fact.
+
+**Use simple punctuation.** Do not use em dashes (`—`) or en dashes (`–`) anywhere in this repository,
+including documentation, commit messages, and chat responses. Use a comma, a colon, parentheses, or a
+separate sentence instead. Prefer plain ASCII punctuation over typographic characters generally: use
+straight quotes rather than curly quotes, and "..." rather than an ellipsis character.
 
 Templates live in `.github/templates/`. Follow them.
 

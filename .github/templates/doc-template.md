@@ -8,8 +8,8 @@
 
 ## Key ideas
 
-- **<Term>** — <definition in plain language>
-- **<Term>** — <definition in plain language>
+- **<Term>**: <definition in plain language>
+- **<Term>**: <definition in plain language>
 
 ## How it works
 
